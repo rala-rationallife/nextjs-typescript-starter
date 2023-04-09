@@ -1,7 +1,7 @@
 export const siteMeta = {
   siteTitle: "Title",
   siteDesc: "サイトの説明",
-  siteUrl: "localhost:3000",
+  siteUrl: `${process.env.NEXT_PUBLIC_SITE_URL}`,
   siteLang: "ja",
   siteLocale: "ja_JP",
   siteType: "website",
