@@ -1,7 +1,7 @@
 import MetaHead from "next/head"
-import { siteMeta } from "@/lib/constants"
+import { siteMeta } from "lib/constants"
 import { useRouter } from "next/router"
-import siteImg from "@/images/ralacode_image.png"
+import siteImg from "images/ralacode_image.png"
 
 type PropsType = {
   pageTitle?: string
